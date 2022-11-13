@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+[class^="box-"] {
+  display: grid;
+  border: solid 5px orangered;
+}
+
+.content-1 .item-1 {
+  grid-area: a;
+}
+.content-1 .item-2 {
+  grid-area: b;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0 auto;
+  gap: px;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}

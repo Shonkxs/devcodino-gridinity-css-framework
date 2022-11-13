@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Exo";
+  src: url("./Exo-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Exo-Bold";
+  src: url("./Exo-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mako";
+  src: url("./Mako-Regular.ttf") format("truetype");
+}

@@ -1,0 +1,105 @@
+:root {
+  /*Colorscheme*/
+  --color1: #14374c;
+  --color2: #5d4053;
+  --color3: #3d263a;
+  --color4: #93a094;
+  --color5: #d4ae88;
+  --gradiant-1: linear-gradient(
+    120.78deg,
+    var(--color1) 11.35%,
+    var(--color5) 89.59%
+  );
+  --gradiant-2: linear-gradient(
+    120.78deg,
+    var(--color2) 11.35%,
+    var(--color4) 89.59%
+  );
+  --gradiant-3: linear-gradient(
+    120.78deg,
+    var(--color3) 11.35%,
+    var(--color1) 89.59%
+  );
+  --gradiant-4: linear-gradient(
+    120.78deg,
+    var(--color5) 11.35%,
+    var(--color2) 89.59%
+  );
+  --gradiant-5: linear-gradient(
+    121deg,
+    var(--color5) 0%,
+    var(--color2) 39%,
+    var(--color3) 86%
+  );
+  --element-light-bg: #dff6ff;
+
+  /*Blackscheme*/
+  --black: rgb(0, 11, 24);
+  --black-75: rgba(0, 11, 24, 0.75);
+  --black-50: rgba(0, 11, 24, 0.5);
+  --black-25: rgba(0, 11, 24, 0.25);
+  --black-10: rgba(0, 11, 24, 0.1);
+  --black-05: rgba(40, 11, 24, 0.05);
+
+  /*Fontfamily*/
+  --ff1: Exo, sans-serif;
+  --ff1-bold: Exo-Bold, sans-serif;
+  --ff2: Mako, sans-serif;
+
+  /*Fontsize*/
+  --fs1: 4.209em;
+  --fs2: 3.157em;
+  --fs3: 2.369em;
+  --fs4: 1.777em;
+  --fs5: 1.333em;
+  --fs6: 1em;
+  --fsp: 1em;
+  --small: 0.75em;
+  --xsmall: 0.563em;
+  --xxsmall: 0.422em;
+
+  /*Fontsize SMALL*/
+
+  /*Font Weight*/
+  --700: 700;
+  --600: 600;
+  --500: 500;
+  --400: 400;
+  --300: 300;
+  --200: 200;
+  --100: 100;
+
+  /*Maintaince*/
+  --error: #d5103b;
+  --white: rgb(255, 255, 255);
+
+  /*Shadows*/
+  --box-shadow: 0px 33px 101px rgba(0, 0, 0, 0.41),
+    0px 12.0455px 36.8667px rgba(0, 0, 0, 0.282892),
+    0px 5.84789px 17.8981px rgba(0, 0, 0, 0.228079),
+    0px 2.86674px 8.77397px rgba(0, 0, 0, 0.181921),
+    0px 1.13351px 3.46924px rgba(0, 0, 0, 0.127108);
+
+  /*Gradiant Text*/
+  --text-gadiant: -webkit-linear-gradient(
+    281.37deg,
+    var(--mainColor) -13.74%,
+    var(--secondaryColor) 93.99%
+  );
+}
+
+.bg-gradiant-1 {
+  background: var(--gradiant-1);
+}
+.bg-gradiant-2 {
+  background: var(--gradiant-2);
+}
+.bg-gradiant-3 {
+  background: var(--gradiant-3);
+}
+.bg-gradiant-4 {
+  background: var(--gradiant-4);
+}
+.bg-gradiant-5 {
+  background: var(--gradiant-5);
+}
