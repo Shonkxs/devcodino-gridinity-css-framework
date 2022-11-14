@@ -1,5 +1,5 @@
 .hero-background {
-  background-image: url("./hero-bg.webp");
+  background-image: url("./../files/hero-bg.webp");
   background-size: cover;
 }
 .cta-container {
