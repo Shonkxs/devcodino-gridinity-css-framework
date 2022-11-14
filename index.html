@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
     <link
       rel="stylesheet"
       href="./css/devcodino-gridinity/devcodino-gridinity-preset.css"
@@ -28,7 +28,7 @@
         <!-- Container für die linke Seite der Navbar -->
         <div class="gy-nav-link gy-nav-link-brand">DEVCODINO</div>
         <div class="gy-nav-link gy-nav-link-toggle">
-          <img src="./files/menu.svg" width="16" />
+          <img src="./files/menu.svg" width="16" alt="menuicon" />
         </div>
         <nav class="gy-nav-items gy-nav-items-left">
           <div class="gy-nav-link">Home</div>
@@ -64,42 +64,60 @@
     <section class="alert-section">
       <h2 class="text-center color-white">Herzlich Willkommen</h2>
     </section>
-    <main class="container">
+    <main class="container-fluid">
       <section class="section-1">
-        <h2 class="section-title text-center">Webdesign</h2>
-        <div
-          class="section-1-content-container d-flex d-flex-h-align-center d-flex-content-v-align-center flex-direct-resp-cr"
-        >
-          <div class="item text-center col-xl-8 col-md-12 col-12">
-            <img src="./files/webdesign-transparent.png" alt="" />
-          </div>
-          <div class="item col-xl-4 col-md-12 col-12">
-            <h4 class="item-header">Professionell, responsive, modern!</h4>
-            <p class="item-text text-justify">
-              Zeit für einen neuen Look? Ich entwickle dir ein modernes,
-              responsives Design für deine Webseite.
-            </p>
-            <div class="cta-container">
-              <a href="#" class="btn btn-standard">Anfragen</a>
+        <div class="container">
+          <h2 class="section-title text-center">Webdesign</h2>
+          <div
+            class="section-1-content-container d-flex d-flex-h-align-center d-flex-content-v-align-center flex-direct-resp-cr"
+          >
+            <div class="item text-center col-xl-8 col-md-12 col-12">
+              <img
+                src="./files/webdesign-transparent.png"
+                alt="Webdesign Bild"
+              />
+            </div>
+            <div class="item col-xl-4 col-md-12 col-12">
+              <h4 class="item-header">Professionell, responsive, modern!</h4>
+              <p class="item-text text-justify">
+                Zeit für einen neuen Look? Ich entwickle dir ein modernes,
+                responsives Design für deine Webseite.
+              </p>
+              <div class="cta-container">
+                <a href="#" class="btn btn-standard">Anfragen</a>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="content-3">Content-2</section>
+      <section class="section-2">
+        <div class="container">
+          <h2 class="section-title text-center">Entwicklung</h2>
+          <div
+            class="section-2-content-container d-flex d-flex-content-v-align-center d-flex-h-align-center flex-direct-resp-cr-rev"
+          >
+            <div class="item col-xl-6 col-md-12 col-12">
+              <h4 class="item-header">Zuverlässig, sauber und stabil!</h4>
+              <p class="item-text text-justify">
+                Ich programmiere deine Webseite nach modernen Standards der
+                Webentwicklung. So kannst du dich immer auf deine Webseite
+                verlassen. Ob klein oder groß: Sauberer Code und ein
+                zuverlässiges Framework ergeben eine stabile Webanwendung.
+              </p>
+              <div class="cta-container">
+                <a href="#" class="btn btn-standard">Anfragen</a>
+              </div>
+            </div>
+            <div class="item col-xl-6 col-md-12 col-12">
+              <img
+                src="./files/webdev-transparent.png"
+                alt="Webdevelopment Bild"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <script src="./gridinity.js"></script>
+    <script src="./js/gridinity.js"></script>
   </body>
 </html>

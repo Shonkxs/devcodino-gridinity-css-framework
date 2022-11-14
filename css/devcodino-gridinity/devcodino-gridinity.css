@@ -1,6 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--black);
-  font-family: var(--ff2);
+  font-family: var(--ff1);
   font-size: 1rem;
 }
 
@@ -77,7 +81,24 @@ img {
   display: table;
 }
 
-/* Font Decoration */
+/* BACKGROUND COLORS */
+.gy-bgc-1 {
+  background-color: var(--color1);
+}
+.gy-bgc-2 {
+  background-color: var(--color2);
+}
+.gy-bgc-3 {
+  background-color: var(--color3);
+}
+.gy-bgc-4 {
+  background-color: var(--color4);
+}
+.gy-bgc-5 {
+  background-color: var(--color5);
+}
+
+/* FONT DECORATION */
 .gy-uppercase {
   text-transform: uppercase;
 }
@@ -147,6 +168,22 @@ img {
 
 .flex-direct-resp-cr {
   flex-direction: column;
+}
+
+.flex-direct-resp-cr-rev {
+  flex-direction: column-reverse;
+}
+
+.flex-space-evenly {
+  justify-content: space-evenly;
+}
+
+.flex-space-around {
+  justify-content: space-around;
+}
+
+.flex-space-between {
+  justify-content: space-between;
 }
 
 /* Alignements */
@@ -363,6 +400,10 @@ img {
   }
 
   .flex-direct-resp-cr {
+    flex-direction: row;
+  }
+
+  .flex-direct-resp-cr-rev {
     flex-direction: row;
   }
 
