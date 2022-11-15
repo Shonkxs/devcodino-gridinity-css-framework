@@ -88,6 +88,10 @@
   );
 }
 
+.shadow {
+  box-shadow: var(--box-shadow);
+}
+
 .bg-gradiant-1 {
   background: var(--gradiant-1);
 }

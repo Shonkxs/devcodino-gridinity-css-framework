@@ -1,3 +1,9 @@
+// TEXT AREA AUTO HEIGHT
+function auto_grow(element) {
+  element.style.height = "5px";
+  element.style.height = element.scrollHeight + "px";
+}
+
 // Navbar Toggle
 let navbar_toggle_icon = document.querySelector(".gy-nav-link-toggle");
 let navbar_elements = document.querySelectorAll(".gy-nav-items");
@@ -24,4 +30,21 @@ navbar_toggle_icon.addEventListener("click", () => {
       element.classList.remove("show-nav-elements");
     });
   }
+});
+
+// NAVBAR TOGGLE
+$(window).bind("mousewheel", function (event) {
+  if (event.originalEvent.wheelDelta >= 0) {
+    $(".gy-navbar ").fadeIn("slow");
+    $(".nav-mouseover").fadeOut("fast");
+    console.log("Scroll up");
+  } else {
+    console.log("Scroll down");
+    $(".gy-navbar ").fadeOut("slow");
+    $(".nav-mouseover").fadeIn("fast");
+  }
+});
+
+$(".nav-mouseover").on("mouseover", () => {
+  $(".gy-navbar ").fadeIn("slow");
 });

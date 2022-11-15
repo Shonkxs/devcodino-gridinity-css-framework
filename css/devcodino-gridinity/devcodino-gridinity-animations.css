@@ -1,0 +1,96 @@
+/* GRADIANT ANIMATION */
+
+.gradiant-animation {
+  background: linear-gradient(
+    318deg,
+    var(--color1),
+    var(--color2),
+    var(--color4),
+    var(--color5)
+  );
+  background-size: 800% 800%;
+
+  -webkit-animation: GradiantAnimation 23s ease infinite;
+  -moz-animation: GradiantAnimation 23s ease infinite;
+  -o-animation: GradiantAnimation 23s ease infinite;
+  animation: GradiantAnimation 23s ease infinite;
+}
+
+@-webkit-keyframes GradiantAnimation {
+  0% {
+    background-position: 0% 51%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
+}
+@-moz-keyframes GradiantAnimation {
+  0% {
+    background-position: 0% 51%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
+}
+@-o-keyframes GradiantAnimation {
+  0% {
+    background-position: 0% 51%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
+}
+@keyframes GradiantAnimation {
+  0% {
+    background-position: 0% 51%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
+}
+
+/* CARD FLIP ANIMATION */
+
+.card {
+  position: relative;
+  perspective: 500px;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .content {
+  transform: rotateY(180deg);
+  transition: transform 0.5s;
+}
+
+.front,
+.back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  backface-visibility: hidden;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
