@@ -400,7 +400,7 @@ button {
 
 .gy-nav-link,
 .gy-nav-brand-link {
-  padding-right: 8px;
+  margin-right: 16px;
   color: white;
   text-decoration: none;
 }
@@ -409,9 +409,9 @@ button {
   margin-right: 16px;
 }
 
-.gy-nav-link:hover {
+/* .gy-nav-link:hover {
   text-decoration: underline;
-}
+} */
 
 /* --------------- FOOTER -------------- */
 
@@ -437,9 +437,9 @@ button {
   margin-right: 16px;
 }
 
-.gy-footer-link:hover {
+/* .gy-footer-link:hover {
   text-decoration: underline;
-}
+} */
 
 .gy-footer-parter-logos {
   flex-direction: column;

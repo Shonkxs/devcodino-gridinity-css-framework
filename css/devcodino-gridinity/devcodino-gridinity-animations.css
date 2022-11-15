@@ -94,3 +94,114 @@
 .back {
   transform: rotateY(180deg);
 }
+
+/* HOVER UNDERLINE ANIMATION */
+
+.text-hover {
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.text-hover:after,
+.text-hover:before {
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.text-hover:after {
+  background-color: var(--white);
+}
+.text-hover:before {
+  background-color: var(--white);
+}
+.text-hover:hover,
+.text-hover:focus {
+  outline: 0;
+  cursor: pointer;
+  color: var(--white);
+  -webkit-transition: color 0.7s ease-in-out;
+  transition: color 0.7s ease-in-out;
+}
+.text-hover:hover:after,
+.text-hover:focus:after {
+  background-color: var(--white);
+}
+.text-hover:hover:before,
+.text-hover:focus:before {
+  background-color: var(--white);
+}
+.text-hover:hover:after,
+.text-hover:focus:after,
+.text-hover:hover:before,
+.text-hover:focus:before {
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.text-hover-underline-goes-right:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-transition-property: width, background-color;
+  transition-property: width, background-color;
+  width: 0;
+  height: 3px;
+}
+
+.text-hover-underline-goes-right:hover:after,
+.text-hover-underline-goes-right:focus:after {
+  outline: 0;
+  -webkit-transition-property: width, background-color;
+  transition-property: width, background-color;
+  width: 100%;
+}
+
+.text-hover-underline-goes-right:after {
+  left: 0;
+  bottom: 0;
+}
+
+/* BOUNCE ANIMATION */
+/* Bounce In */
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover,
+.hvr-bounce-in:focus,
+.hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}

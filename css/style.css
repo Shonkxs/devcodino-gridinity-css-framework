@@ -50,10 +50,6 @@
   margin: 16px;
 }
 
-.partner-logo-svg:hover {
-  height: 50px;
-}
-
 .section-4 {
   padding-top: 80px;
   padding-bottom: 128px;
@@ -73,6 +69,27 @@
 .front,
 .content {
   border-radius: 50px !important;
+}
+
+.section-4 .bg-abstract-1 {
+  background-image: url("./../files/abstract1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section-4 .bg-abstract-2 {
+  background-image: url("./../files/abstract2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section-4 .bg-abstract-3 {
+  background-image: url("./../files/abstract3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .section-4 .arrow-svg {
