@@ -1,4 +1,10 @@
-Wellcome to Devcodino´s Gridinity
+# Wellcome to Devcodino´s Gridinity
+
+### A simple CCS Framework like Bootstrap for create responsive Websites (Work in Progress); 
+
+
+
+# Installation
 
 ```diff
 ! HEADER:
